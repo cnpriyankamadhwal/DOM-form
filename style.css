@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" );
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2rem;
+    box-shadow: 0 0 15px #cacaca;
+    border-radius: 8px;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    outline: 0;
+    margin: 10px 0;
+}
+
+#button{
+    gap: 10px;
+    display: flex;
+}
+
+button{
+    flex: 1;
+    padding: 6px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+#addBtn{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}
+
+#removeBtn{
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: white;
+}
+
+#resetBtn{
+    background-color: #a2a205;
+    border: 1px solid  #a2a205;
+    color: white;
+}
+
+.student-table{
+    margin: 10px 0;
+}
+
+table{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+th{
+    text-align: left;
+    padding: 10px;
+}
